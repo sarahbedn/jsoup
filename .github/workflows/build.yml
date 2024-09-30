@@ -1,7 +1,11 @@
 name: Build
 on:
   push:
+    branches:
+      - jsoup-tests-parser
   pull_request:
+    branches:
+      - jsoup-tests-parser
 
 jobs:
   test:
