@@ -3,10 +3,11 @@ on:
   push:
     branches:
       - jsoup-tests-parser
+      - jsoup-tests-helper
   pull_request:
     branches:
       - jsoup-tests-parser
-
+      - jsoup-tests-helper
 jobs:
   test:
     runs-on: ${{ matrix.os }}
